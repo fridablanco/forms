@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Introducción a los Formularios</h1>
+    <form action="#" method="post">
+        <label for="Nombre">Nombre Completo:</label>
+        <input type="text" id="Nombre" name="Nombre" required> <br> <br>
+
+
+        <label for="Correo">Correo Electrónico:</label>
+        <input type="email" id="Correo" name="Correo" required> <br><br>
+
+
+        <label for="PSW">Contraseña:</label>
+        <input type="password" id="PSW" name="PWS" required> <br><br>
+
+        <label for="Fecha">Fecha de nacimiento:</label>
+        <input type="date" id="Fecha" name="Fecha" required> <br><br>
+
+
+        <label for="Sexo">Sexo:</label> <br>
+        <input type="radio" id="Masculino" name="Sexo" value="Masculino">
+        <label for="Masculino">Masculino</label> <br>
+        <input type="radio" id="Femenino" name="Sexo" value="Femenino">
+        <label for="Femenino">Femenino</label> <br>
+        <input type="radio" id="Otro" name="Sexo" value="Otro">
+        <label for="Otro">Otro</label> <br> <br>
+
+
+        <label for="Pais">País:</label>
+        <select name="Pais" id="Pais">
+            <option value="mexico">México</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+        </select> <br><br>
+
+
+        <label for="Comentarios">Comentarios:</label> <br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="4"></textarea> <br><br>
+
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
